@@ -12,4 +12,6 @@ for l in range(4): #RANGE QUE PASSA PELAS LINHAS - QUANTIDADE
 
     for c in range(3): #RANGE QUE PASSA PELAS COLUNAS - QUANTIDADE
 
-        print(m[l][c], end = )
+        print(m[l][c], end = ' ')
+
+    print() #PRINT EM BRANCO
