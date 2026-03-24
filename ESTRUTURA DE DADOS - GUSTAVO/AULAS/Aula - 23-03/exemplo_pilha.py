@@ -1,0 +1,19 @@
+pilha = [] #PILHA EM BRANCO
+
+for i in range(5): #VAI FAZER O QUE ESTIVER DENTRO 5 VEZES
+
+    x = int(input("Digite o valor: ")) #COLOCANDO OS ELEMENTOS NA PILHA
+    pilha.append(x) #ADICIONANDO OS ELEMENTOS RECEBIDOS NA PILHA
+
+i = 0 
+
+while i < len(pilha):
+    print(pilha[i]) #IMPRIMINDO A PILHA
+    i = i + 1
+
+
+#O COMANDO 'POP()' ELE SEMPRE TIRA O ÚLTIMO
+
+pilha.pop(i -2) #AQUI ELE ESTÁ REMOVENDO PELAS POSIÇÕES DO ÚLTIMO QUE ENTROU SENDO O PRIMEIRO A SAIR E O PRIMEIRO SENDO ÚLTIMO - ENTÃO '-1' IRÁ SAIR A ÚLTIMA INFORMAÇÃO QUE ENTROU, JÁ '-5' VAI SAIR A PRIMEIRA INFORMAÇÃO QUE ENTROU
+
+print(pilha)
